@@ -52,3 +52,15 @@ Dataset diambil dari [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/d
 - **NumPy** - Operasi numerik
 - **Matplotlib & Seaborn** - Visualisasi data
 - **Scikit-learn** - Machine learning library
+
+## Installation
+### 1. **Clone Repository**
+```python
+git clone https://github.com/username/titanic-survival-prediction.git
+cd titanic-survival-prediction
+
+#Install dependencies
+pip install -r requirements.txt
+
+#Run Jupyter Notebook
+jupyter notebook Projectfinal.ipynb
