@@ -11,13 +11,6 @@
 - [Tujuan Proyek](#tujuan-proyek)
 - [Dataset](#dataset)
 - [Teknologi yang Digunakan](#teknologi-yang-digunakan)
-- [Metodologi](#metodologi)
-- [Hasil dan Analisis](#hasil-dan-analisis)
-- [Cara Menjalankan](#cara-menjalankan)
-- [Struktur Proyek](#struktur-proyek)
-- [Improvement Ideas](#improvement-ideas)
-- [Author](#author)
-- [License](#license)
 
 ## 📋 Deskripsi Proyek
 
@@ -59,19 +52,3 @@ Dataset diambil dari [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/d
 - **NumPy** - Operasi numerik
 - **Matplotlib & Seaborn** - Visualisasi data
 - **Scikit-learn** - Machine learning library
-
-## 📈 Metodologi
-
-### 1. **Data Loading & Initial Exploration**
-```python
-import pandas as pd
-import numpy as np
-
-# Load dataset
-url = "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
-df = pd.read_csv(url)
-
-# Info dataset
-df.info()
-df.describe()
-df.head()
