@@ -54,8 +54,8 @@ Dataset diambil dari [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/d
 - **Scikit-learn** - Machine learning library
 
 ## Installation
-### 1. **Clone Repository**
 ```python
+#Clone Repository
 git clone https://github.com/username/titanic-survival-prediction.git
 cd titanic-survival-prediction
 
